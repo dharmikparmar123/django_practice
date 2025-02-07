@@ -1,0 +1,84 @@
+{% load static %}
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="{% static 'css/about.css' %}" rel="stylesheet">
+        <title>AddWish</title>
+        <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button{
+            -webkit-appearance:none;
+            margin:0;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="space"></div>
+        <section class="first-section" style="margin-bottom:200px">
+            <div class="container">
+                <h2>We are here to help humanity</h2><hr>
+             </div>
+       
+        
+            <div class="frmdv" >
+
+                <h3>Fill the form for create your wish</h3>
+                
+                    <div class="line">
+                        <div class="group">
+                            <input required="" type="text" class="input" name="name">
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <label>Name</label>
+                        </div>
+
+                        <div class="group">
+                            <input required="" type="email" class="input" name="email">
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <label>Email</label>
+                        </div>
+
+                        <div class="group">
+                            <input required="" type="text" class="input" name="city">
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <label>City</label>
+                        </div>
+                    </div>
+                    
+                    <div class="line">
+                        <div class="group">
+                            <input required="" type="number" class="input" name="number">
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <label>Mobile no</label>
+                        </div>
+                        <div class="group">
+                            <input required="" type="number" class="input" name="amount">
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <label>Amount to be raised</label>
+                        </div>
+                    </div>
+                    <div class="last">
+                    <div class="line">
+                        <textarea class="input"  name="details" cols="70" rows="7" placeholder="Enter all details" ></textarea>
+                      
+                    </div>
+                    <div class="btns">
+                        <button class="btn2">Submit</button>
+                        <input type="reset" class="btn2" id="rst" value="Reset">
+                    </div>
+               -
+               </div>
+              </div>
+        
+        </section> 
+        
+    
+    </body>
+    </html>

@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'css/contact.css' %}" rel="stylesheet">
+    <title>Contact Us</title>
+</head>
+<body>
+   
+    <div class="space"></div>
+    <section class="first_section1">
+        <div class="container">
+            <h2>Contact Us</h2><hr>
+        </div>
+    </section>
+    <div class="side">
+        <div class="fsec">
+            <img src="../media/img/assets/feed1.jpeg" alt="About Image" >
+        </div> 
+   
+        <div class="form-container">
+            <form class="form" action="contactdb.php" method="post">
+                <div class="form-group">
+                    <label for="email">Company Email</label>
+                    <input type="text" id="email" name="email" required="">
+                </div>
+                <div class="form-group">
+                    <label for="textarea">How Can We Help You?</label>
+                    <textarea name="textarea" id="textarea" rows="10" cols="50" required="">          </textarea>
+                </div>
+                    <button class="form-submit-btn" type="submit" formaction="contactdb.php">Submit</button>
+            </form>
+        </div>
+</div>
+
+    <div class="space2"></div>
+  
+</body>
+</html>

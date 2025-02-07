@@ -1,0 +1,169 @@
+/* 
+.btn2:hover{
+    color:black;
+
+}
+.first-section{
+    margin-top: -13px;
+    
+}
+.container{
+    text-align: center;
+    color: white;
+    
+}
+.container h2{
+    font-size: 3rem;
+}
+.container hr{
+    width: 65%;
+    border-radius: 50%;
+    border-color: orange;
+}
+.space{
+    height: 100px;
+    width: 100%;
+}
+
+
+.frmdv{
+    background-color:#191818;
+    height: 450px;
+    width: 80%;
+    margin-left: 139px;
+    margin-top: 60px;
+    border-radius: 30px;
+
+}
+.frmdv h3{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+    color: #f1f0f0;
+}
+
+ */
+/* .line{
+    display: flex;
+    
+}
+.group {
+    position: relative;
+    margin-left: 130px;
+    margin-top: 30px;
+    color: #faf4f4;
+   }
+   
+   .input {
+   color:white;
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid #515151;
+    background: transparent;
+   }
+   
+   .input:focus {
+    outline: none;
+   }
+   
+   label {
+    color: #999;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+   }
+   
+   .input:focus ~ label, .input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: orange;
+   }
+   
+   .bar {
+    position: relative;
+    display: block;
+    width: 200px;
+   }
+   
+   .bar:before, .bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: orange;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+   }
+   
+   .bar:before {
+    left: 50%;
+   }
+   
+   .bar:after {
+    right: 50%;
+   }
+   
+   .input:focus ~ .bar:before, .input:focus ~ .bar:after {
+    width: 57%;
+   }
+   
+   .highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+   }
+   
+   .input:focus ~ .highlight {
+    animation: inputHighlighter 0.3s ease;
+   }
+   
+
+.line textarea{
+    margin-left: 120px;
+    margin-top: 30px;
+    
+}
+
+
+.btn2{
+    background-color: orange;
+    border: none;
+    padding:7px 20px;
+    margin-top: 15px;
+    margin-left: 19px;
+    border-radius:4px;
+    color:white;
+    
+}
+#rst:hover{
+    color:rgb(11, 11, 11);
+}
+.btn2 :hover{
+    color:black;
+}
+.btns{
+    margin: 80px 80px;
+}
+.last{
+    display: flex;
+}
+
+.space9{
+    height: 300px;
+    width: 100%;
+} */ 
